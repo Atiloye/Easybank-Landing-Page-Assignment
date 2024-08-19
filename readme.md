@@ -22,7 +22,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
 - Live Site URL: [GitHub Live Site](https://atiloye.github.io/Easybank-Landing-Page-Assignment/)
 
 #### Note:
-- At the pushing of this site, I caught a little snag in trying to make the background image for the first panel show. I will revisit this later.
+- At the pushing of this site, I caught a little snag in trying to make the background image for the first panel scalable. I will revisit this later.
 
 ### Author
 
