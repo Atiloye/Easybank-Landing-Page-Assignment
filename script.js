@@ -13,4 +13,4 @@ window.addEventListener("click", (event) => {
 });
 
 
-//Remaining the cancel for modal, footer, and responsiveness test.
+//Remaining the cancel for modal, footer, and responsiveness test. Also, readme! Eii! I'm cooked!

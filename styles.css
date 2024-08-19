@@ -106,6 +106,22 @@
     color: hsl(0, 1%, 34%);
     line-height: 40px;
 }
+.intro-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-image: url(Images/bg-intro-desktop.svg);
+    background-position: 3rem -15rem;
+    background-repeat: no-repeat;
+} 
+
+  .intro-image img.mockups {
+    position: absolute;
+    right: 0;
+    top: -30rem;
+    width: 120%;
+  }
+
 
 /* Main Body Container Styles */
 #container {
@@ -117,7 +133,9 @@
     width: 100%;
 }
 
-/* Main Sections Styling */
+/* Cover and Overlay Image Styling */
+
+
 /* Panel 1 */
 .panel-one { 
     align-items: center;
@@ -126,11 +144,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 10rem;
+    /* padding: 10rem; */
+    position: relative;
+    z-index: 1;
 }
+
 .intro-text {
     /* padding: 5rem 0 5rem 5rem; */
-    width: 40%;
+    width: 100%;
+    padding: 10rem;
 }
 .intro-header-text {
     color: hsl(233, 26%, 24%);
@@ -328,8 +350,7 @@ footer {
     color: rgb(135, 138, 143);
     font-size: 20px;
     font-weight: 600;
-}
-
+}          
 /* Responsive Design */
 @media only screen and (max-width: 375px) {
     #container {
@@ -344,6 +365,7 @@ footer {
     /* Nav bar */
     #nav-bar {
         justify-content:space-between ;
+        position:relative
     }
     #dropdown img{
         display: flex;
@@ -355,7 +377,7 @@ footer {
     /* Panel 1 */
 .panel-one {
     align-items: center;
-    height: 100vh;
+    height: 140vh;
     display: flex;
     flex-direction: column-reverse;
     justify-content: space-around;
@@ -372,8 +394,26 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding: 1rem;
 
+}.intro-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    background: url(Images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    height: auto;
 }
+
+.intro-image img.mockups {
+    position: absolute;
+    top: -15rem;
+    width: 100%;
+  }
 
 
 /* Panel 2 */
